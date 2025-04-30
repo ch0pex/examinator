@@ -57,8 +57,10 @@ button:hover {
     margin-top: 20px;
 }
 
+/* Modificación clave: hacer que cada opción sea un bloque para que aparezcan en nuevas líneas */
 .option {
     margin-bottom: 10px;
+    display: block; /* Añadido: Hace que cada label ocupe su propia línea */
 }
 
 #feedback {
